@@ -1,0 +1,11 @@
+---
+application:
+  name: "invitarr"
+  project: "RSSDisocrd"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-invitarr"
+  routes:
+  - application_name: "invitarr"
+    paths:
+    - "/*"
